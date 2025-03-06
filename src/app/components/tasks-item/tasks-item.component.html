@@ -1,0 +1,22 @@
+<div class="task">
+  <h3>{{ task?.text }}  <fa-icon (click) = "onClick(task)" [icon]="faTimes" [ngStyle]="{'color': 'red'}"></fa-icon> </h3>
+  <p>{{ task?.day }}</p>
+</div>
+<script>
+  /*
+  <fa-icon>
+    Tag Name: This is a custom HTML element provided by the @fortawesome/angular-fontawesome library.
+
+    Purpose: It renders a FontAwesome icon in your Angular application.
+    2. [icon]="faTimes"
+
+    Input Binding: The square brackets [] indicate property binding in Angular. This means the value inside the brackets is a property from the component's class.
+
+    Property Name: icon is the name of the property on the fa-icon component that specifies which icon to display.
+
+    Value: faTimes is a variable defined in your component's TypeScript class.
+    faTimes: This is an imported icon object from the FontAwesome library. It corresponds to the "times" (close) icon.
+
+    Bind the icon property of fa-icon to the faTimes variable, which represents the "times" icon.
+  */
+</script>
